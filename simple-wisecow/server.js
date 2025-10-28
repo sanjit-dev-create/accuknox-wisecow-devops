@@ -1,0 +1,1 @@
+const express = require('express'); const app = express(); const PORT = 3000; app.get('/', (req, res) => { res.send('<h1>?? Wisecow App</h1><p>DevOps Assessment Ready!</p>'); }); app.get('/health', (req, res) => { res.json({ status: 'OK', message: 'Wisecow is healthy!' }); }); app.listen(PORT, () => { console.log('Wisecow app running on port ' + PORT); });
