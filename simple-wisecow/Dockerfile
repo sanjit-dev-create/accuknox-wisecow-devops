@@ -9,6 +9,6 @@ FROM node:16-alpine
 WORKDIR /app
 COPY --from=builder /app/node_modules ./node_modules
 COPY . .
-EXPOSE 3000
+EXPOSE 3000 3443
 USER node
 CMD ["npm", "start"]
