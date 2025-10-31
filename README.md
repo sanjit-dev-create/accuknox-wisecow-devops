@@ -3,7 +3,7 @@ Accuknox DevOps Trainee Assessment - Wisecow App Deployment
 ### ⚠️ Note on TLS Implementation:
 The current implementation handles basic HTTP/HTTPS website checks. For advanced TLS/SSL certificate validation and custom TLS configurations, additional security libraries and certificate pinning would be required, which can be implemented based on specific security requirements.
 
-## DevOps Trainee Assessment - Problem Statement Solution
+## DevOps Trainee Assessment - Problem Statement Solution statement 2 (i choose 1 and 4)
 
 ### Tasks Completed:
 - **System Health Monitoring Script** (`system_health.py`)
